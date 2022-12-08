@@ -1,5 +1,5 @@
 # DSA-LeetCode
-This is an open source project where we store the solutions of Leetcode in Python.
+This is an open source project where we store the solutions of Leetcode in Python , java , javascript , c , c++.
 If you want to contribute to this repo then feel free to do so.
 
 Steps to follow:
