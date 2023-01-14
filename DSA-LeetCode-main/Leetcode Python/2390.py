@@ -7,7 +7,4 @@ class Solution:
                 temp.pop()
             else:
                 temp.append(i)
-
-        for k in temp:
-            ans+=k
-        return ans
+        return "".join(temp)
