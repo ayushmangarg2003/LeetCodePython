@@ -6,4 +6,4 @@ class Solution:
             if letter.isdigit():
                 digits.add(letter)
         digits = sorted(list(digits))
-        return -1 if len(digits) < 2 else digits[-2]
+        return -1 if len(digits) < 2 else int(digits[-2])
