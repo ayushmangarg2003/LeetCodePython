@@ -10,6 +10,7 @@ Steps to follow:
 
 after your pull request in merged, you can repeat the cycle
 
-## Someone can contribute not only with code but also by updating Readme file (Which is really needed).
-
-Have a good time contributing.
+## You can Strike a Conversation through my socials 🌐
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/Ayushmangarg4)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/linkedin.com/in/ayushmangarg)
+[![Linktree](https://img.shields.io/badge/Linktree-%2300FF11.svg?logo=linktree&logoColor=white)](https://linktr.ee/ayushmangarg8)
