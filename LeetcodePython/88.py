@@ -17,3 +17,12 @@ class Solution(object):
         while n>0:
             nums1[m+n-1] = nums2[n-1]
             n-=1
+
+
+#Better Solution Below
+
+class Solution:
+    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+        for i in range(len(nums2)):
+            nums1[i+m] = nums2[i]
+        return nums1.sort()
