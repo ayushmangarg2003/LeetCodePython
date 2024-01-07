@@ -1,5 +1,15 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        from collections import Counter
-        c=[x[0] for x in list(Counter(nums).most_common(k))]
-        return c
+        ans = []
+        unique = []
+        freq = []
+        for i in nums:
+            if i not in unique:
+                unique.append(i)
+                freq.append(nums.count(i))
+        for i in range(k):
+            m = max(freq)
+            j = freq.index(m)
+            ans.append(unique[j])
+            freq[j]=-1
+        return ans
