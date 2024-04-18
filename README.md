@@ -1,1 +1,1 @@
-# DSA-LeetCode
+# LeetCode Solutions
