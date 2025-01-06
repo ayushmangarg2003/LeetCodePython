@@ -10,3 +10,13 @@ class Solution:
             curr+=1
             next = 0
         return ans
+
+
+# Alternate Solution with less memory
+class Solution:
+    def minOperations(self, boxes: str) -> List[int]:
+        ans = [0] * len(boxes)
+        for i in range(len(boxes)):
+            for j in range(len(boxes)):
+                ans[i] += int(boxes[j]) * (abs(j-i))            
+        return ans
